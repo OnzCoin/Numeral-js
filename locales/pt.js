@@ -1,6 +1,6 @@
 // numeral.js locale configuration
-// locale : portuguese (pt-pt)
-// author : Diogo Resende : https://github.com/dresende
+// locale : portuguese (pt)
+// author : Kan Wong : https://github.com/kankando
 
 (function (global, factory) {
     if (typeof define === 'function' && define.amd) {
