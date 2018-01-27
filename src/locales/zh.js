@@ -1,6 +1,6 @@
 // numeral.js locale configuration
-// locale : japanese
-// author : teppeis : https://github.com/teppeis
+// locale : Chineses (zh)
+// author : Kan Wong : https://github.com/kankando
 
 (function (global, factory) {
     if (typeof define === 'function' && define.amd) {

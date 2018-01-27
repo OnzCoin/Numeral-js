@@ -465,6 +465,28 @@
 
 
 (function() {
+        numeral.register('locale', 'ko', {
+        delimiters: {
+            thousands: ',',
+            decimal: '.'
+        },
+        abbreviations: {
+            thousand: '천',
+            million: '백만',
+            billion: '억',
+            trillion: '조'
+        },
+        ordinal: function (number) {
+            return '.';
+        },
+        currency: {
+            symbol: '¥'
+        }
+    });
+})();
+
+
+(function() {
         numeral.register('locale', 'lv', {
         delimiters: {
             thousands: ' ',

@@ -1,5 +1,5 @@
 // numeral.js locale configuration
-// locale : Chineses (zh)
+// locale : Korean (ko)
 // author : Kan Wong : https://github.com/kankando
 
 (function (global, factory) {
@@ -11,16 +11,16 @@
         factory(global.numeral);
     }
 }(this, function (numeral) {
-    numeral.register('locale', 'zh', {
+    numeral.register('locale', 'ko', {
         delimiters: {
             thousands: ',',
             decimal: '.'
         },
         abbreviations: {
-            thousand: '千',
-            million: '百万',
-            billion: '十億',
-            trillion: '兆'
+            thousand: '천',
+            million: '백만',
+            billion: '억',
+            trillion: '조'
         },
         ordinal: function (number) {
             return '.';
