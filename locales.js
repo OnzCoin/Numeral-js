@@ -622,6 +622,28 @@
 
 
 (function() {
+        numeral.register('locale', 'pt', {
+        delimiters: {
+            thousands: ' ',
+            decimal: ','
+        },
+        abbreviations: {
+            thousand: 'k',
+            million: 'm',
+            billion: 'b',
+            trillion: 't'
+        },
+        ordinal : function (number) {
+            return 'º';
+        },
+        currency: {
+            symbol: '€'
+        }
+    });
+})();
+
+
+(function() {
         numeral.register('locale', 'ru-ua', {
         delimiters: {
             thousands: ' ',
@@ -838,6 +860,28 @@
         },
         currency: {
             symbol: '₫'
+        }
+    });
+})();
+
+
+(function() {
+        numeral.register('locale', 'zh', {
+        delimiters: {
+            thousands: ',',
+            decimal: '.'
+        },
+        abbreviations: {
+            thousand: '千',
+            million: '百万',
+            billion: '十億',
+            trillion: '兆'
+        },
+        ordinal: function (number) {
+            return '.';
+        },
+        currency: {
+            symbol: '¥'
         }
     });
 })();
