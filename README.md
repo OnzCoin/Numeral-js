@@ -56,6 +56,10 @@ See [the english unit tests](https://github.com/adamwdraper/Numeral-js/blob/mast
 
 # Changelog
 
+### 2.0.7
+
+Added: added Chineses, Portugeses, Korean and Japanese
+
 ### 2.0.6
 
 Bug fix: Multi letter currency symbols and spacing
